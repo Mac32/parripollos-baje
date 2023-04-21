@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Logotipo from '../assets/Logo.png'
+import Logotipo from '../assets/Images/Logo.png'
 import Link from 'next/link'
 
 export default function Logo (): JSX.Element {
