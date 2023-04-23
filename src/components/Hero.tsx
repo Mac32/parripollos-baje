@@ -11,7 +11,7 @@ export default function Hero (): JSX.Element {
 
       <p className='absolute text-white text-xl font-serif mt-72 w-1/2 ml-14 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros dolor, lobortis ut diam eget, fringilla scelerisque risus. Cras non enim sit amet risus tempus sodales nec nec tellus.</p>
 
-      <Link className='absolute text-white text-xl font-serif mt-72 w-60 text-center ml-20 bottom-10 rounded-md p-3 bg-[#F2A81D]' href={'/'} >Nuestro menu</Link>
+      <Link className='absolute text-white text-xl font-serif mt-72 w-60 text-center ml-20 bottom-10 rounded-md p-3 bg-[#F2A81D]' href='/'>Nuestro menu</Link>
 
       <Image
         src={BackgroundHero}
