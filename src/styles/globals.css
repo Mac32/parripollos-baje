@@ -5,3 +5,9 @@
 body {
   background-image: url('../assets/Images/wood.jpg');
 }
+
+#feedback {
+  background-image: url('../assets/Images/wood-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

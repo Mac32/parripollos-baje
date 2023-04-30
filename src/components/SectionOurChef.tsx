@@ -1,5 +1,8 @@
 import Image from 'next/image'
 import chef from '../assets/Images/chef.jpg'
+import TitleOfSection from './TitleOfSection'
+import Link from 'next/link'
+import ButtonOfSection from './ButtonOfSection'
 
 export default function SectionOurCheft (): JSX.Element {
   return (
@@ -13,13 +16,20 @@ export default function SectionOurCheft (): JSX.Element {
         />
       </div>
       <div className='w-[56%] mr-16'>
-        <h2 className='text-[#F2A81D] text-center font-serif text-4xl mt-10'>Nuestro Chef</h2>
+        <TitleOfSection>Nuestro Chef</TitleOfSection>
         <div className='text-white mt-6'>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae debitis aliquam quod id asperiores commodi fugit, reiciendis praesentium consequatur! Quam, rem aut obcaecati placeat tempore labore laudantium perferendis laboriosam animi.</p>
-          <p className='mt-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quaerat molestiae temporibus nesciunt rem quia consequuntur sint, magnam velit, ut consectetur, veritatis tempora maiores error? Alias perspiciatis autem iusto amet.
+          <p>
+            Pedro García, desde joven, descubrió su pasión por la coctelería y comenzó trabajando como bartender en varios bares y restaurantes. Sabía cómo preparar los mejores tragos y ganó mucha experiencia en atención al cliente.
           </p>
-          <p className='mt-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quaerat molestiae temporibus nesciunt rem quia consequuntur sint, magnam velit, ut consectetur, veritatis tempora maiores error? Alias perspiciatis autem iusto amet.
+          <p className='mt-2'>
+            Con el tiempo, Pedro decidió ampliar sus habilidades culinarias y comenzó a trabajar como mesonero. Fue en este trabajo donde descubrió su talento para la cocina y comenzó a aprender más sobre el arte de cocinar.
           </p>
+          <p className='mt-2'>
+            Después de años de trabajo duro y dedicación, Pedro realizó varios cursos para perfeccionar sus habilidades culinarias. Con su pasión por la cocina y su experiencia en atención al cliente, Pedro decidió que era el momento de cumplir su sueño de tener su propio negocio.
+          </p>
+          <div className='flex flex-col mt-8'>
+            <ButtonOfSection href='/ourchef'>Conoce mas</ButtonOfSection>
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,8 @@ import Image from 'next/image'
 import imageFire from '../assets/Images/fire.jpg'
 import imageFood from '../assets/Images/meat.jpg'
 import imageFood2 from '../assets/Images/meat-2.jpg'
+import Link from 'next/link'
+import ButtonOfSection from './ButtonOfSection'
 
 export default function SectionOurHistory (): JSX.Element {
   return (
@@ -29,11 +31,19 @@ export default function SectionOurHistory (): JSX.Element {
       <div className='w-[50%] mr-16'>
         <h2 className='text-[#F2A81D] text-center font-serif text-4xl mt-10'>Nuestra Historia</h2>
         <div className='text-white mt-6'>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae debitis aliquam quod id asperiores commodi fugit, reiciendis praesentium consequatur! Quam, rem aut obcaecati placeat tempore labore laudantium perferendis laboriosam animi.</p>
-          <p className='mt-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quaerat molestiae temporibus nesciunt rem quia consequuntur sint, magnam velit, ut consectetur, veritatis tempora maiores error? Alias perspiciatis autem iusto amet.
+          <p>
+            Parripollos B.A.J.E. es una pollería familiar con una historia muy especial detrás de su nombre. Todo comenzó hace varios años, cuando Pedro García, un joven emprendedor, decidió iniciar su propio negocio de venta de pollos asados.
           </p>
-          <p className='mt-3'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur quaerat molestiae temporibus nesciunt rem quia consequuntur sint, magnam velit, ut consectetur, veritatis tempora maiores error? Alias perspiciatis autem iusto amet.
+          <p className='mt-2'>
+            Pedro trabajó arduamente para construir su pollería desde cero, dedicando su tiempo y esfuerzo a cada detalle. Con el tiempo, el negocio comenzó a crecer y a prosperar, convirtiéndose en un lugar muy popular para comprar pollos asados en la zona.
           </p>
+          <p className='mt-2'>
+            Pero durante el difícil período de crisis en Venezuela, la pollería se vio obligada a cerrar debido a la falta de materia prima para trabajar. Fue un momento muy difícil para todos en la familia, pero nunca perdieron la fe y la esperanza de que algún día volverían a abrir las puertas de Parripollos.
+
+          </p>
+          <div className='mt-5 flex flex-col'>
+            <ButtonOfSection href='/ourhistory'>Conoce mas</ButtonOfSection>
+          </div>
         </div>
       </div>
     </div>
