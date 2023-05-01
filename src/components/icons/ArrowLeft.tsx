@@ -5,7 +5,7 @@ export default function ArrowLeft (): JSX.Element {
       xmlns='http://www.w3.org/2000/svg'
       data-name='Livello 1'
       viewBox='0 0 128 128'
-      width={150}
+      width={40}
       height={80}
     >
       <title />
