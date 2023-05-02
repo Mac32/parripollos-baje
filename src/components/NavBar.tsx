@@ -8,10 +8,10 @@ export default function NavBar (): JSX.Element {
         <li>
           <Logo />
         </li>
-        <ButtonNavBar>Home</ButtonNavBar>
-        <ButtonNavBar>Menu</ButtonNavBar>
-        <ButtonNavBar>Galeria</ButtonNavBar>
-        <ButtonNavBar>Contacto</ButtonNavBar>
+        <ButtonNavBar href='/'>Home</ButtonNavBar>
+        <ButtonNavBar href='/menu'>Menu</ButtonNavBar>
+        <ButtonNavBar href='#galery'>Galeria</ButtonNavBar>
+        <ButtonNavBar href='#contact'>Contacto</ButtonNavBar>
       </ul>
     </nav>
   )

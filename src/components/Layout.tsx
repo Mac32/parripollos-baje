@@ -8,7 +8,10 @@ export default function Layout ({ children }: prop): JSX.Element {
   return (
     <>
       <NavBar />
-      {children}
+      <div className='scroll-smooth'>
+        {children}
+
+      </div>
     </>
   )
 }

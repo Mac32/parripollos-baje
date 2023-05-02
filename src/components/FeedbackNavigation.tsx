@@ -24,7 +24,7 @@ export default function FeedbackNavigation ({ currentIndex, totalComments, onBef
   }
 
   return (
-    <div className='absolute h-full top-0 left-0 right-0 flex justify-between items-center'>
+    <div className='absolute h-full top-0 left-0 right-0 flex justify-between items-center overflow-hidden'>
       <button className='hover:-translate-x-1 transition ease-in-out duration-300 h-full w-1/6 flex justify-center items-center flex-col' onClick={handleBeforeClick}>
         <ArrowLeft />
       </button>

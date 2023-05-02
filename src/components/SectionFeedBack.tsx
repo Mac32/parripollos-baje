@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import { useState } from 'react'
 import FeedbackNavigation from './FeedbackNavigation'
-import { comments } from '@/data/comments'
-import { BlurEffect } from '@/tools/BlurEffect'
+import { comments } from '../data/comments'
+import { BlurEffect } from '../tools/BlurEffect'
 
 export default function SectionFeedback (): JSX.Element {
   const [currentIndex, setCurrentIndex] = useState(0)

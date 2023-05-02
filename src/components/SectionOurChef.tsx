@@ -1,12 +1,11 @@
 import Image from 'next/image'
 import chef from '../assets/Images/chef.jpg'
 import TitleOfSection from './TitleOfSection'
-import Link from 'next/link'
 import ButtonOfSection from './ButtonOfSection'
 
 export default function SectionOurCheft (): JSX.Element {
   return (
-    <div className='flex justify-around pl-32 h-[30rem] bg-[#171717]/80'>
+    <div className='snap-center flex justify-around pl-32 h-[30rem] bg-[#171717]/80'>
       <div className='flex flex-col justify-center'>
         <Image
           className=' w-4/5 mx-auto'
@@ -28,7 +27,7 @@ export default function SectionOurCheft (): JSX.Element {
             Después de años de trabajo duro y dedicación, Pedro realizó varios cursos para perfeccionar sus habilidades culinarias. Con su pasión por la cocina y su experiencia en atención al cliente, Pedro decidió que era el momento de cumplir su sueño de tener su propio negocio.
           </p>
           <div className='flex flex-col mt-8'>
-            <ButtonOfSection href='/ourchef'>Conoce mas</ButtonOfSection>
+            {/* <ButtonOfSection href='/ourchef'>Leer más</ButtonOfSection> */}
           </div>
         </div>
       </div>

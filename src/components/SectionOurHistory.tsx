@@ -2,12 +2,11 @@ import Image from 'next/image'
 import imageFire from '../assets/Images/fire.jpg'
 import imageFood from '../assets/Images/meat.jpg'
 import imageFood2 from '../assets/Images/meat-2.jpg'
-import Link from 'next/link'
 import ButtonOfSection from './ButtonOfSection'
 
 export default function SectionOurHistory (): JSX.Element {
   return (
-    <div className='flex justify-between h-[30rem] relative'>
+    <div className=' flex justify-between h-[30rem] relative'>
       <div className='flex flex-col justify-center'>
         <Image
           className='absolute rotate-6 top-10 left-64'
@@ -42,7 +41,7 @@ export default function SectionOurHistory (): JSX.Element {
 
           </p>
           <div className='mt-5 flex flex-col'>
-            <ButtonOfSection href='/ourhistory'>Conoce mas</ButtonOfSection>
+            {/* <ButtonOfSection href='/ourhistory'>Leer más</ButtonOfSection> */}
           </div>
         </div>
       </div>

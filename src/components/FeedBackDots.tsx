@@ -1,4 +1,3 @@
-import React from 'react'
 import Dot from './icons/Dot'
 
 interface props {
