@@ -1,9 +1,9 @@
-import ButtonNavBar from './ButonNavBar'
+import ButtonNavBar from './ButtonNavBar'
 import Logo from './Logo'
 
 export default function SectionFooter (): JSX.Element {
   return (
-    <div className='h-40 text-white flex justify-around items-center bg-[#171717] mt-10'>
+    <footer className='h-40 text-white flex justify-around items-center bg-[#171717] mt-10'>
       <div>
         <Logo size={90} />
       </div>
@@ -15,14 +15,14 @@ export default function SectionFooter (): JSX.Element {
           </a>
         </div>
         <div className='flex flex-col flex-nowrap gap-10 items-center'>
-          <ButtonNavBar href='#galery'>Galeria</ButtonNavBar>
+          <ButtonNavBar href='/galery'>Galeria</ButtonNavBar>
         </div>
         <div className='flex flex-col gap-10 items-center flex-nowrap'>
-          <ButtonNavBar href='#contact'>Contacto</ButtonNavBar>
+          <ButtonNavBar href='/#contact'>Contacto</ButtonNavBar>
 
         </div>
 
       </div>
-    </div>
+    </footer>
   )
 }

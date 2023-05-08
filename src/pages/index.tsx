@@ -2,7 +2,6 @@ import Hero from '@/components/Hero'
 import Layout from '@/components/Layout'
 import SectionContact from '@/components/SectionContact'
 import SectionFeedBack from '@/components/SectionFeedBack'
-import SectionFooter from '@/components/SectionFooter'
 import SectionGalery from '@/components/SectionGalery'
 import SectionOurChef from '@/components/SectionOurChef'
 import SectionOurHistory from '@/components/SectionOurHistory'
@@ -22,7 +21,6 @@ export default function Home (): JSX.Element {
           <SectionGalery />
           <SectionFeedBack />
           <SectionContact />
-          <SectionFooter />
         </div>
 
       </Layout>

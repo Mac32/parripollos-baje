@@ -27,7 +27,7 @@ export default function SectionOurCheft (): JSX.Element {
             Después de años de trabajo duro y dedicación, Pedro realizó varios cursos para perfeccionar sus habilidades culinarias. Con su pasión por la cocina y su experiencia en atención al cliente, Pedro decidió que era el momento de cumplir su sueño de tener su propio negocio.
           </p>
           <div className='flex flex-col mt-8'>
-            {/* <ButtonOfSection href='/ourchef'>Leer más</ButtonOfSection> */}
+            <ButtonOfSection href='/ourchef'>Leer más</ButtonOfSection>
           </div>
         </div>
       </div>

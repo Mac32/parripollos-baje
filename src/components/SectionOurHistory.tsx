@@ -41,7 +41,7 @@ export default function SectionOurHistory (): JSX.Element {
 
           </p>
           <div className='mt-5 flex flex-col'>
-            {/* <ButtonOfSection href='/ourhistory'>Leer más</ButtonOfSection> */}
+            <ButtonOfSection href='/ourhistory'>Leer más</ButtonOfSection>
           </div>
         </div>
       </div>

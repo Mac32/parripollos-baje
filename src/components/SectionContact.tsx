@@ -12,9 +12,6 @@ export default function SectionContact (): JSX.Element {
       <div className='p-1 mt-10'>
         <TitleOfSection>Contáctanos</TitleOfSection>
       </div>
-      <div id='map'>
-        Mapa
-      </div>
       <div className='flex flex-col items-center mt-10'>
         <div className='flex flex-col items-center '>
           <label className='text-white font-bold mb-3'>Escribe a nuestro WhatsApp</label>

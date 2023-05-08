@@ -1,4 +1,4 @@
-import ButtonNavBar from './ButonNavBar'
+import ButtonNavBar from './ButtonNavBar'
 import Logo from './Logo'
 
 export default function NavBar (): JSX.Element {
@@ -8,10 +8,13 @@ export default function NavBar (): JSX.Element {
         <li>
           <Logo />
         </li>
-        <ButtonNavBar href='/'>Home</ButtonNavBar>
-        <ButtonNavBar href='/menu'>Menu</ButtonNavBar>
-        <ButtonNavBar href='#galery'>Galeria</ButtonNavBar>
-        <ButtonNavBar href='#contact'>Contacto</ButtonNavBar>
+        <div className='lg:flex justify-around w-2/3 hidden'>
+          <ButtonNavBar href='/'>Home</ButtonNavBar>
+          <ButtonNavBar href='/menu'>Menú</ButtonNavBar>
+          <ButtonNavBar href='/galery'>Galería</ButtonNavBar>
+          <ButtonNavBar href='/ourhistory'>Nuestra Historia</ButtonNavBar>
+          <ButtonNavBar href='/ourchef'>Nuestro Chef</ButtonNavBar>
+        </div>
       </ul>
     </nav>
   )
