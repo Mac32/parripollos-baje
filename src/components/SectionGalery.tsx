@@ -13,16 +13,16 @@ export default function SectionGalery (): JSX.Element {
       <div className='mb-5'>
         <TitleOfSection>Galería</TitleOfSection>
       </div>
-      <div className='flex flex-wrap md:-m-2'>
-        <div className='flex w-1/2 flex-wrap'>
-          <div className='w-1/2 p-1 md:p-2'>
+      <div className='flex flex-wrap md:-m-2 w-[95%] mx-auto'>
+        <div className='lg:flex lg:w-1/2 lg:flex-wrap'>
+          <div className='lg:w-1/2 p-1 md:p-2'>
             <Image
               alt='Cliente de parripollos BAJE'
               className='block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition ease-in-out duration-300'
               src={cliente1}
             />
           </div>
-          <div className='w-1/2 p-1 md:p-2'>
+          <div className='lg:w-1/2 p-1 md:p-2'>
             <Image
               alt='Cliente de parripollos BAJE'
               className='block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition ease-in-out duration-300'
@@ -37,7 +37,7 @@ export default function SectionGalery (): JSX.Element {
             />
           </div>
         </div>
-        <div className='flex w-1/2 flex-wrap'>
+        <div className='flex lg:w-1/2 flex-wrap'>
           <div className='w-full p-1 md:p-2'>
             <Image
               alt='Parrilla de parripollos BAJE'
@@ -45,14 +45,14 @@ export default function SectionGalery (): JSX.Element {
               src={parrilla2}
             />
           </div>
-          <div className='w-1/2 p-1 md:p-2'>
+          <div className='lg:w-1/2 p-1 md:p-2'>
             <Image
               alt='Parrilla de parripollos BAJE'
               className='block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition ease-in-out duration-300'
               src={parrilla3}
             />
           </div>
-          <div className='w-1/2 p-1 md:p-2'>
+          <div className='lg:w-1/2 p-1 md:p-2'>
             <Image
               alt='Parrilla de parripollos BAJE'
               className='block h-full w-full rounded-lg object-cover object-center hover:scale-105 transition ease-in-out duration-300'

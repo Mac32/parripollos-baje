@@ -5,8 +5,8 @@ import ButtonOfSection from './ButtonOfSection'
 
 export default function SectionOurCheft (): JSX.Element {
   return (
-    <div className='snap-center flex justify-around pl-32 h-[30rem] bg-[#171717]/80'>
-      <div className='flex flex-col justify-center'>
+    <div className='snap-center px-8 pb-8 flex justify-around lg:pl-32 lg:h-[30rem] bg-[#171717]/80'>
+      <div className='hidden lg:flex lg:flex-col lg;justify-center'>
         <Image
           className=' w-4/5 mx-auto'
           src={chef}
@@ -14,7 +14,7 @@ export default function SectionOurCheft (): JSX.Element {
           width={350}
         />
       </div>
-      <div className='w-[56%] mr-16'>
+      <div className='lg:w-[56%] lg:mr-16'>
         <TitleOfSection>Nuestro Chef</TitleOfSection>
         <div className='text-white mt-6'>
           <p>
