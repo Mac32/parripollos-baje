@@ -12,7 +12,7 @@ export default function Galery (): JSX.Element {
     <Layout>
       <main className='w-11/12 mx-auto'>
         <TitlePage>Galería</TitlePage>
-        <section className='grid grid-cols-4 gap-3 bg-[#171717]/80 p-6'>
+        <section className='grid lg:grid-cols-4 gap-3 bg-[#171717]/80 p-6'>
           {
             images !== null && images !== undefined
               ? images.map((current, index) => {

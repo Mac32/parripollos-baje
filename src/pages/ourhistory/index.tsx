@@ -13,8 +13,8 @@ export default function OurHistory (): JSX.Element {
         </Head>
         <main className='container mx-auto'>
           <TitlePage>Nuestra Historia</TitlePage>
-          <section className='text-white bg-[#171717]/80 p-12 px-28'>
-            <div className='float-left mr-3'>
+          <section className='text-white bg-[#171717]/80 md:p-12 lg:px-28 p-3'>
+            <div className='lg:float-left lg:mr-3 mx-auto w-1/2'>
               <Logo size={200} />
             </div>
             <P>

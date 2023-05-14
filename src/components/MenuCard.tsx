@@ -11,8 +11,8 @@ interface props {
 export default function MenuCard ({ children, title, image, variation = 1 }: props): JSX.Element {
   if (variation === 1) {
     return (
-      <div className='flex justify-around'>
-        <div className='flex flex-col justify-center flex-1 items-center'>
+      <div className='flex md:flex-row flex-col justify-around'>
+        <div className='flex flex-col justify-center flex-1 items-center py-3'>
           <TitleMenu>{title}</TitleMenu>
           {children}
         </div>
@@ -27,7 +27,7 @@ export default function MenuCard ({ children, title, image, variation = 1 }: pro
     )
   } else {
     return (
-      <div className='flex justify-around'>
+      <div className='flex md:flex-row flex-col-reverse justify-around'>
         <Image
           src={image}
           className='object-cover flex-1'
@@ -35,7 +35,7 @@ export default function MenuCard ({ children, title, image, variation = 1 }: pro
           width={400}
           height={400}
         />
-        <div className='flex flex-col justify-center items-center flex-1'>
+        <div className='flex flex-col justify-center items-center flex-1 py-3'>
           <TitleMenu>{title}</TitleMenu>
           {children}
         </div>

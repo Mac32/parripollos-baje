@@ -10,6 +10,7 @@ export default function Logo ({ size = 48 }: props): JSX.Element {
   return (
     <Link href='/'>
       <Image
+        className='w-full'
         src={Logotipo}
         alt='Logo de la pagina'
         width={size}

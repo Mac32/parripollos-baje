@@ -14,10 +14,10 @@ export default function OurChef (): JSX.Element {
       <Layout>
         <main>
           <TitlePage>Nuestro Chef</TitlePage>
-          <section className='container mx-auto text-white bg-[#171717]/80 p-12 px-24'>
-            <div className='float-left m-3'>
+          <section className='container mx-auto text-white bg-[#171717]/80 md:p-12 px-24 p-3'>
+            <div className='lg:float-left lg:m-3 pb-6'>
               <Image
-                className='object-cover'
+                className='object-cover mx-auto'
                 alt='Chef Pedro Garcia'
                 src={Chef}
                 width={220}

@@ -13,7 +13,7 @@ export default function SectionGalery (): JSX.Element {
       <div className='mb-5'>
         <TitleOfSection>Galería</TitleOfSection>
       </div>
-      <div className='flex flex-wrap md:-m-2 w-[95%] mx-auto'>
+      <div className='flex flex-wrap w-[95%] mx-auto'>
         <div className='lg:flex lg:w-1/2 lg:flex-wrap'>
           <div className='lg:w-1/2 p-1 md:p-2'>
             <Image
