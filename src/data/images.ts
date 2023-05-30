@@ -8,8 +8,13 @@ import Parrilla4 from '../assets/Images/parrilla-4.jpg'
 import Restaurante from '../assets/Images/restaurant-1.jpg'
 import Servicio1 from '../assets/Images/servicio-1.jpg'
 import Servicio2 from '../assets/Images/servicio-2.jpg'
+import Comentarios from '../assets/Images/Comentarios.jpeg'
 
 export const images: TemplaeImage[] = [
+  {
+    src: Comentarios,
+    alt: 'Cliente saludando al chef'
+  },
   {
     src: Cliente1,
     alt: 'Foto de cliente'

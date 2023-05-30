@@ -6,7 +6,7 @@ import ButtonOfSection from './ButtonOfSection'
 export default function SectionOurCheft (): JSX.Element {
   return (
     <div className='snap-center px-8 pb-8 flex justify-around lg:pl-32 lg:h-[30rem] bg-[#171717]/80'>
-      <div className='hidden lg:flex lg:flex-col lg;justify-center'>
+      <div className='hidden lg:flex lg:flex-col lg;justify-center lg:mt-36'>
         <Image
           className=' w-4/5 mx-auto'
           src={chef}
